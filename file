@@ -1,0 +1,444 @@
+	{	}	l	p	=	f	n	x	$	P	T	S	R	C		
+1	4	0	0	0	0	0	0	0	0	0	2	3	0	0		
+2	0	0	0	0	0	0	0	0	9999	0	0	0	0	0		
+3	4	T-S	0	0	0	0	0	0	T-S	0	5	3	0	0		
+4	0	0	6	14	10	0	0	0	0	0	0	0	0	0		
+5	0	T-ST	0	0	0	0	0	0	T-ST	0	0	0	0	0		
+6	0	0	0	0	0	0	0	7	0	0	0	0	0	0		
+7	4	0	0	0	0	0	0	0	0	0	8	3	0	0		
+8	0	9	0	0	0	0	0	0	0	0	0	0	0	0		
+9	S-{lxT}	S-{lxT}	0	0	0	0	0	0	S-{lxT}	0	0	0	0	0		
+10	0	0	0	0	0	0	0	11	0	0	0	0	0	0		
+11	20	0	0	0	0	0	17	16	0	0	0	0	12	15		
+12	0	13	0	0	0	0	0	0	0	0	0	0	0	0		
+13	S-{=xR}	S-{=xR}	0	0	0	0	0	0	S-{=xR}	0	0	0	0	0		
+14	20	0	0	0	0	0	17	16	0	0	0	0	18	5		
+15	R-C	R-C	0	0	0	0	R-C	R-C	0	0	0	0	0	0		
+16	R-x	R-x	0	0	0	0	R-x	R-x	0	0	0	0	0	0		
+17	R-n	R-n	0	0	0	0	R-n	R-n	0	0	0	0	0	0		
+18	0	19	0	0	0	0	0	0	0	0	0	0	0	0		
+19	S-{pR}	S-{pR}	0	0	0	0	0	0	S-{pR}	0	0	0	0	0		
+20	0	0	0	0	0	21	0	0	0	0	0	0	0	0		
+21	20	0	0	0	0	0	17	16	0	0	0	0	22	15		
+22	20	0	0	0	0	0	17	16	0	0	0	0	23	0		
+23	0	24	0	0	0	0	0	0	0	0	0	0	0	0		
+24	C-{fRR}	C-{fRR}	0	0	0	0	C-{fRR}	C-{fRR}	0	0	0	0	0	0		
+1 , 1
+{ token is processed 
+on seeing : { move to : 4
+4 , 5
+= token is processed 
+on seeing : = move to : 10
+10 , 8
+x token is processed 
+on seeing : x move to : 11
+11 , 7
+n token is processed 
+on seeing : n move to : 17
+17 , 2
+---reducing ----
+on seeing R-n element at top :17
+R-n production is used 
+lhs is : R rhs is : n
+ poping state 17 from the stack ; poping element n from the stack
+    11 area under me 
+
+pointer to R created
+pointer to R created
+R NON TERMINAL on top of the stack 
+12 this is the go to cell to be used
+top is : 12
+12 , 2
+} token is processed 
+on seeing : } move to : 13
+13 , 1
+---reducing ----
+on seeing S-{=xR} element at top :13
+S-{=xR} production is used 
+lhs is : S rhs is : {=xR}
+ poping state 13 from the stack ; poping element } from the stack
+ poping state 12 from the stack ; poping element R from the stack
+ poping state 11 from the stack ; poping element x from the stack
+ poping state 10 from the stack ; poping element = from the stack
+ poping state 4 from the stack ; poping element { from the stack
+    1 area under me 
+
+pointer to S created
+pointer to S created
+S NON TERMINAL on top of the stack 
+3 this is the go to cell to be used
+top is : 3
+3 , 1
+{ token is processed 
+on seeing : { move to : 4
+4 , 5
+= token is processed 
+on seeing : = move to : 10
+10 , 8
+x token is processed 
+on seeing : x move to : 11
+11 , 7
+n token is processed 
+on seeing : n move to : 17
+17 , 2
+---reducing ----
+on seeing R-n element at top :17
+R-n production is used 
+lhs is : R rhs is : n
+ poping state 17 from the stack ; poping element n from the stack
+    11 area under me 
+
+pointer to R created
+pointer to R created
+R NON TERMINAL on top of the stack 
+12 this is the go to cell to be used
+top is : 12
+12 , 2
+} token is processed 
+on seeing : } move to : 13
+13 , 1
+---reducing ----
+on seeing S-{=xR} element at top :13
+S-{=xR} production is used 
+lhs is : S rhs is : {=xR}
+ poping state 13 from the stack ; poping element } from the stack
+ poping state 12 from the stack ; poping element R from the stack
+ poping state 11 from the stack ; poping element x from the stack
+ poping state 10 from the stack ; poping element = from the stack
+ poping state 4 from the stack ; poping element { from the stack
+    3 area under me 
+
+pointer to S created
+pointer to S created
+S NON TERMINAL on top of the stack 
+3 this is the go to cell to be used
+top is : 3
+3 , 1
+{ token is processed 
+on seeing : { move to : 4
+4 , 5
+= token is processed 
+on seeing : = move to : 10
+10 , 8
+x token is processed 
+on seeing : x move to : 11
+11 , 7
+n token is processed 
+on seeing : n move to : 17
+17 , 2
+---reducing ----
+on seeing R-n element at top :17
+R-n production is used 
+lhs is : R rhs is : n
+ poping state 17 from the stack ; poping element n from the stack
+    11 area under me 
+
+pointer to R created
+pointer to R created
+R NON TERMINAL on top of the stack 
+12 this is the go to cell to be used
+top is : 12
+12 , 2
+} token is processed 
+on seeing : } move to : 13
+13 , 1
+---reducing ----
+on seeing S-{=xR} element at top :13
+S-{=xR} production is used 
+lhs is : S rhs is : {=xR}
+ poping state 13 from the stack ; poping element } from the stack
+ poping state 12 from the stack ; poping element R from the stack
+ poping state 11 from the stack ; poping element x from the stack
+ poping state 10 from the stack ; poping element = from the stack
+ poping state 4 from the stack ; poping element { from the stack
+    3 area under me 
+
+pointer to S created
+pointer to S created
+S NON TERMINAL on top of the stack 
+3 this is the go to cell to be used
+top is : 3
+3 , 1
+{ token is processed 
+on seeing : { move to : 4
+4 , 3
+l token is processed 
+on seeing : l move to : 6
+6 , 8
+x token is processed 
+on seeing : x move to : 7
+7 , 1
+{ token is processed 
+on seeing : { move to : 4
+4 , 5
+= token is processed 
+on seeing : = move to : 10
+10 , 8
+x token is processed 
+on seeing : x move to : 11
+11 , 1
+{ token is processed 
+on seeing : { move to : 20
+20 , 6
+f token is processed 
+on seeing : f move to : 21
+21 , 8
+x token is processed 
+on seeing : x move to : 16
+16 , 8
+---reducing ----
+on seeing R-x element at top :16
+R-x production is used 
+lhs is : R rhs is : x
+ poping state 16 from the stack ; poping element x from the stack
+    21 area under me 
+
+pointer to R created
+pointer to R created
+R NON TERMINAL on top of the stack 
+22 this is the go to cell to be used
+top is : 22
+22 , 8
+x token is processed 
+on seeing : x move to : 16
+16 , 2
+---reducing ----
+on seeing R-x element at top :16
+R-x production is used 
+lhs is : R rhs is : x
+ poping state 16 from the stack ; poping element x from the stack
+    22 area under me 
+
+pointer to R created
+pointer to R created
+R NON TERMINAL on top of the stack 
+23 this is the go to cell to be used
+top is : 23
+23 , 2
+} token is processed 
+on seeing : } move to : 24
+24 , 2
+---reducing ----
+on seeing C-{fRR} element at top :24
+C-{fRR} production is used 
+lhs is : C rhs is : {fRR}
+ poping state 24 from the stack ; poping element } from the stack
+ poping state 23 from the stack ; poping element R from the stack
+ poping state 22 from the stack ; poping element R from the stack
+ poping state 21 from the stack ; poping element f from the stack
+ poping state 20 from the stack ; poping element { from the stack
+    11 area under me 
+
+pointer to C created
+pointer to C created
+C NON TERMINAL on top of the stack 
+15 this is the go to cell to be used
+top is : 15
+15 , 2
+---reducing ----
+on seeing R-C element at top :15
+R-C production is used 
+lhs is : R rhs is : C
+ poping state 15 from the stack ; poping element C from the stack
+    11 area under me 
+
+pointer to R created
+pointer to R created
+R NON TERMINAL on top of the stack 
+12 this is the go to cell to be used
+top is : 12
+12 , 2
+} token is processed 
+on seeing : } move to : 13
+13 , 1
+---reducing ----
+on seeing S-{=xR} element at top :13
+S-{=xR} production is used 
+lhs is : S rhs is : {=xR}
+ poping state 13 from the stack ; poping element } from the stack
+ poping state 12 from the stack ; poping element R from the stack
+ poping state 11 from the stack ; poping element x from the stack
+ poping state 10 from the stack ; poping element = from the stack
+ poping state 4 from the stack ; poping element { from the stack
+    7 area under me 
+
+pointer to S created
+pointer to S created
+S NON TERMINAL on top of the stack 
+3 this is the go to cell to be used
+top is : 3
+3 , 1
+{ token is processed 
+on seeing : { move to : 4
+4 , 5
+= token is processed 
+on seeing : = move to : 10
+10 , 8
+x token is processed 
+on seeing : x move to : 11
+11 , 1
+{ token is processed 
+on seeing : { move to : 20
+20 , 6
+f token is processed 
+on seeing : f move to : 21
+21 , 8
+x token is processed 
+on seeing : x move to : 16
+16 , 7
+---reducing ----
+on seeing R-x element at top :16
+R-x production is used 
+lhs is : R rhs is : x
+ poping state 16 from the stack ; poping element x from the stack
+    21 area under me 
+
+pointer to R created
+pointer to R created
+R NON TERMINAL on top of the stack 
+22 this is the go to cell to be used
+top is : 22
+22 , 7
+n token is processed 
+on seeing : n move to : 17
+17 , 2
+---reducing ----
+on seeing R-n element at top :17
+R-n production is used 
+lhs is : R rhs is : n
+ poping state 17 from the stack ; poping element n from the stack
+    22 area under me 
+
+pointer to R created
+pointer to R created
+R NON TERMINAL on top of the stack 
+23 this is the go to cell to be used
+top is : 23
+23 , 2
+} token is processed 
+on seeing : } move to : 24
+24 , 2
+---reducing ----
+on seeing C-{fRR} element at top :24
+C-{fRR} production is used 
+lhs is : C rhs is : {fRR}
+ poping state 24 from the stack ; poping element } from the stack
+ poping state 23 from the stack ; poping element R from the stack
+ poping state 22 from the stack ; poping element R from the stack
+ poping state 21 from the stack ; poping element f from the stack
+ poping state 20 from the stack ; poping element { from the stack
+    11 area under me 
+
+pointer to C created
+pointer to C created
+C NON TERMINAL on top of the stack 
+15 this is the go to cell to be used
+top is : 15
+15 , 2
+---reducing ----
+on seeing R-C element at top :15
+R-C production is used 
+lhs is : R rhs is : C
+ poping state 15 from the stack ; poping element C from the stack
+    11 area under me 
+
+pointer to R created
+pointer to R created
+R NON TERMINAL on top of the stack 
+12 this is the go to cell to be used
+top is : 12
+12 , 2
+} token is processed 
+on seeing : } move to : 13
+13 , 2
+---reducing ----
+on seeing S-{=xR} element at top :13
+S-{=xR} production is used 
+lhs is : S rhs is : {=xR}
+ poping state 13 from the stack ; poping element } from the stack
+ poping state 12 from the stack ; poping element R from the stack
+ poping state 11 from the stack ; poping element x from the stack
+ poping state 10 from the stack ; poping element = from the stack
+ poping state 4 from the stack ; poping element { from the stack
+    3 area under me 
+
+pointer to S created
+pointer to S created
+S NON TERMINAL on top of the stack 
+3 this is the go to cell to be used
+top is : 3
+3 , 2
+---reducing ----
+on seeing T-S element at top :3
+T-S production is used 
+lhs is : T rhs is : S
+ poping state 3 from the stack ; poping element S from the stack
+    3 area under me 
+
+pointer to T created
+pointer to T created
+T NON TERMINAL on top of the stack 
+5 this is the go to cell to be used
+top is : 5
+5 , 2
+---reducing ----
+on seeing T-ST element at top :5
+T-ST production is used 
+lhs is : T rhs is : ST
+ poping state 5 from the stack ; poping element T from the stack
+ poping state 3 from the stack ; poping element S from the stack
+    7 area under me 
+
+pointer to T created
+pointer to T created
+T NON TERMINAL on top of the stack 
+8 this is the go to cell to be used
+top is : 8
+8 , 2
+} token is processed 
+on seeing : } move to : 9
+9 , 1
+---reducing ----
+on seeing S-{lxT} element at top :9
+S-{lxT} production is used 
+lhs is : S rhs is : {lxT}
+ poping state 9 from the stack ; poping element } from the stack
+ poping state 8 from the stack ; poping element T from the stack
+ poping state 7 from the stack ; poping element x from the stack
+ poping state 6 from the stack ; poping element l from the stack
+ poping state 4 from the stack ; poping element { from the stack
+    3 area under me 
+
+pointer to S created
+pointer to S created
+S NON TERMINAL on top of the stack 
+3 this is the go to cell to be used
+top is : 3
+3 , 1
+{ token is processed 
+on seeing : { move to : 4
+4 , 4
+p token is processed 
+on seeing : p move to : 14
+14 , 8
+x token is processed 
+on seeing : x move to : 16
+16 , 2
+---reducing ----
+on seeing R-x element at top :16
+R-x production is used 
+lhs is : R rhs is : x
+ poping state 16 from the stack ; poping element x from the stack
+    14 area under me 
+
+pointer to R created
+pointer to R created
+R NON TERMINAL on top of the stack 
+18 this is the go to cell to be used
+top is : 18
+18 , 2
+} token is processed 
+on seeing : } move to : 19
+P
+size of stack62
+0

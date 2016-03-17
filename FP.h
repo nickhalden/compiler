@@ -1,0 +1,9 @@
+#define OB 1
+#define CB 2
+#define LOOP 3
+#define PRINT 4
+#define EQUALS 5
+#define FUNC 6
+#define NUMBER 7
+#define IDENTIFIER 8
+#define END 9
